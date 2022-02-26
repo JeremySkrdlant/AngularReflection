@@ -15,3 +15,15 @@ ng serve open
 ```bash
 ng generate component componentName
 ```
+
+### Notes
+You can declare variables in the .ts file inside the class.  Then you can use them in the html file using the what looks to be Mustache or Handlebars like templating.  The style.css will apply to all the components but you can also add to the style in the component only to affect that component.
+
+Atom.io handles Angular much better than REACT.  There isn't much autocompletion with react but it is perfectly good with Angular since the file is a .html extension.
+
+I also like how the Component settings has your selector so you know which html tag to put in to get your component.   
+
+### YouTube Video Overview
+[Day 1 Video](https://youtu.be/Sy2sc9WIKFE)
+
+[Back](https://github.com/JeremySkrdlant/AngularReflection)
