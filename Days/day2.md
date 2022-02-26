@@ -14,14 +14,14 @@ imports: [
 
 After you have that, you can add any variable you want to change it's state on with an form object like input with the following code.
 
-```angular
-  <input [(ngModel)="variableName"] />
+```ts
+  <input [(ngModel)]="variableName"] />
 ```
 
 ## Loops
 You can create loops with the *ngFor.
 
-```angular
+```ts
     <div *ngFor="for car in cars">
        <p> You now have access to a {{car.element}} from the array creating a paragraph for each. </p>
     </div>
@@ -30,7 +30,7 @@ You can create loops with the *ngFor.
 ## Conditionals
 You can show elements based on a *ngIf.
 
-```angular
+```ts
   <div *ngIf="variable == 5">
       This will only show if the variable is 5.
   </div>
@@ -38,7 +38,7 @@ You can show elements based on a *ngIf.
 ## Conditional Classes
 You can add a class to an element based on a condition.
 
-```angular
+```ts
   <div [class.neat]="project == 'neat'">
     This will show if the project variable is equal to neat.
   </div>
@@ -60,7 +60,7 @@ npm install -D @types/crypto-js
 ## Success 1
 After I got the library installed and working, it was easy to get the functionality I wanted.  I had a variable called currentString that was bound to a textarea.  The result area called a function that ran the hash function and returned a string.
 
-```angular
+```ts
 currentString:string = "";
 
 getHash(value:string):string{
